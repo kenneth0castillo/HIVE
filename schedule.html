@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <link rel="stylesheet" href="assets/css/schedule.css">
+   <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js" defer></script>
+   <script src="assets/js/schedule.js" defer></script>
+</head>
+<body>
+<div class="cd-schedule">
+  <div class="timeline">
+     <ul>
+        <li><span>8:45</span></li>
+        <li><span>09:00</span></li>
+        <li><span>09:45</span></li>
+        <li><span>10:25</span></li>
+        <li><span>11:00</span></li>
+        <li><span>09:30</span></li>
+        <li><span>09:30</span></li>
+        <li><span>09:30</span></li>
+        <li><span>09:30</span></li>
+        <li><span>09:30</span></li>
+        <li><span>09:30</span></li>
+
+        <!-- additional elements here -->
+     </ul>
+  </div>
+
+  <div class="events">
+     <ul>
+        <li class="events-group">
+           <div class="top-info"><span>Monday</span></div>
+
+           <ul>
+              <li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+                 <a href="#0">
+                    <em class="event-name">English</em>
+                 </a>
+              </li>
+
+              <li class="single-event" data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">
+                   <a href="#0">
+                       <em class="event-name"> Science </em>
+                   </a>
+                 </li>
+
+              <!-- other events here -->
+           </ul>
+        </li>
+
+        <li class="events-group">
+           <div class="top-info"><span>Tuesday</span></div>
+
+           <ul>
+           <li class="single-event" data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">
+               <a href="#0">
+           <em class="event-name"> U.S. History </em>
+               </a>
+           </li>
+       </ul>
+        </li>
+
+        <li class="events-group">
+               <div class="top-info"><span>Wednesday</span></div>
+
+               <ul>
+                  <li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+                     <a href="#0">
+                        <em class="event-name">English</em>
+                     </a>
+                  </li>
+
+                  <!-- other events here -->
+               </ul>
+            </li>
+
+       <li class="events-group">
+               <div class="top-info"><span>Thursaday</span></div>
+
+               <ul>
+                  <li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+                     <a href="#0">
+                        <em class="event-name">English</em>
+                     </a>
+                  </li>
+
+                  <!-- other events here -->
+               </ul>
+</li>
+
+        <li class="events-group">
+               <div class="top-info"><span>Friday</span></div>
+
+               <ul>
+                  <li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+                     <a href="#0">
+                        <em class="event-name">Abs Circuit</em>
+                     </a>
+                  </li>
+
+                  <!-- other events here -->
+               </ul>
+            </li>
+        <!-- additional li.events-group here -->
+     </ul>
+  </div>
+
+  <div class="event-modal">
+     <header class="header">
+        <div class="content">
+           <span class="event-date"></span>
+           <h3 class="event-name"></h3>
+        </div>
+
+        <div class="header-bg"></div>
+     </header>
+
+     <div class="body">
+        <div class="event-info"></div>
+        <div class="body-bg"></div>
+     </div>
+
+     <a href="#0" class="close">Close</a>
+  </div>
+</div>
+
+</body>
+</html>
