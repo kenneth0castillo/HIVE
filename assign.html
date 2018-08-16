@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+  <title>fireMessage</title>
+
+  <!--Go to https://console.firebase.google.com-->
+  <!--Sign in and add a project "fireMessage"-->
+  <!--PASTE SNIPPET HERE-->
+
+
+  <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDwgv_S_nW_5CHyiVsOLA2ZFRlQ7DBzZBA",
+      authDomain: "classroom-fa8c4.firebaseapp.com",
+      databaseURL: "https://classroom-fa8c4.firebaseio.com",
+      projectId: "classroom-fa8c4",
+      storageBucket: "classroom-fa8c4.appspot.com",
+      messagingSenderId: "254846611990"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+
+
+  <!--custom files-->
+  <script src="assets/js/assign.js" defer></script>
+  <link rel="stylesheet" href="assets/css/assign.css">
+</head>
+<h2>ffff</h2>
+<body>
+
+  <!--Add your name-->
+  <h1>Contact Teacher</h1>
+
+
+  <!--This div will be populated with messages-->
+  <div id="allMessages">
+
+  </div>
+
+  <!--For user to input messages-->
+  <div class="userContainer">
+      <form>
+          <div class="inputContainer">
+              <div class="singleInput">
+                  <label for="username">Your name:</label>
+                  <input id="username" type="text">
+              </div>
+              <div class="singleInput">
+                  <label for="message">Message:</label>
+                  <input id="message" type="text">
+              </div>
+          </div>
+          <button id="submitButton">Submit</button>
+      </form>
+  </div>
+</body>
+</html>

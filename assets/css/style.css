@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    text-align: center;
+    display: block;
+}
+#logo_transparent{
+    width: 50%;
+    display: flex;
+    padding-left: 25%;
+    padding-right: 10%; 
+    margin: 0px;
+}
+.container{
+    display: block;
+    margin: 0%;
+    color: gold;
+    background-color: black;
+}
+#btnlogin{
+    border-radius: 4px;
+    color: gold;
+    background-color: black;
+    border: 0px;
+    font-size: 20px;
+
+}
+#btnsignup{
+    color: gold;
+    background-color: black;
+    border: 0px;
+    font-size: 20px;
+
+}
+#txtEmail{
+    color: gold;
+    background-color: black;
+    /* border-color: gold; */
+    border: 0px;
+    font-size: 20px;
+}
+#txtPassword{
+    color: gold;
+    background-color: black;
+    /* border-color: gold; */
+    border: 0px;
+    font-size: 20px;
+}
+#btnlogin :hover{
+    background-color:black; 
+}
